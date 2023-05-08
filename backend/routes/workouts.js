@@ -4,7 +4,7 @@ const Workout = require('../models/workoutModel')
 const router = express.Router()
 
 router.get('/', (req,res)=>{
-    res.json({mssg: 'Get all workouts'})
+    res.json({mssg: 'Get all workouts try'})
 })
 
 router.get('/:id', (req,res) =>{
